@@ -45,6 +45,11 @@ img,video{
     height: auto;
 }
 
+
+section:not(#callToAction), footer {
+    padding: 4em 0;
+}
+
 /* Header */
 header{
     width: 100%;
@@ -317,15 +322,18 @@ header a{
      border-radius: 10px;
 }
 
+/* Other Info */
 #otherInfo
 {
     padding: 4em;
 }
+
+/* Contact Form */
 #contactForm h2 {
     border: 1px solid gray;
     background: white;
-    width: 200px;
-    padding: .5em 1em;
+    width: 300px;
+    padding: 1em 1em;
     margin: auto;
     position: relative;
     z-index: 5;
@@ -382,8 +390,4 @@ footer p{
     --mouse-x: 50%;
     --mouse-y: 50%;
     --start: 0;
-}
-
-section:not(#callToAction), footer {
-    padding: 4em 0;
 }
